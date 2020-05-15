@@ -1,6 +1,31 @@
-body div {
-  border: 2px solid green;
-  padding: 2rem;
-  margin: 25px auto; }
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 25px; }
+
+header {
+  max-width: 1280px;
+  margin: 25px auto;
+  border-bottom: 1px solid #ccc; }
+
+.component {
+  max-width: 1280px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+  margin-bottom: 40px; }
+
+.component-image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+  .component-image-grid img {
+    display: block;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: 1px solid #20a1aa; }
 
 /*# sourceMappingURL=components.css.map */
